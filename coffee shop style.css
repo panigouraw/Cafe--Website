@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    margin:0;
+    background-image: url("shop4.jpg");
+    background-repeat: no-repeat;
+    background-position: centre ;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    position: fixed;
+}
+.logo img{
+    border-radius: 40px;
+}
+.details{
+    margin-left: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 80px;
+    text-align: right;
+    position: fixed ;
+
+}
+a{
+    text-decoration: none;
+    text-align: right;
+    font-size:17px;
+    color:chocolate;
+    font-weight: 700;
+    padding: 2px 10px;
+}
+a:hover{
+    transform: scale(1.1);
+    background-color:rgb(250, 191, 170);
+    border: none;
+    border-radius: 10px;
+}
+button{
+    background-color:rgb(239, 121, 78) ;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 10px;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
+main{
+    background-color: #3e2723;
+}
+.topcata h2{
+    margin: 0;
+    text-align: center;
+    margin-top:2px ;
+    font-size: 40px;
+}
+.topcata h2:hover{
+    transform: scale(1.1);
+}
+.topcata p{
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+}
+.cardbox{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    text-align: center;
+}
+.card1 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.card1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgb(247, 247, 215);
+
+}
+.card1 h3{
+    margin-top: 30px;
+}
+
+.card2 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.card2 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgb(247, 247, 215);
+
+}
+.card2 h3{
+    margin-top: 30px;
+}
+
+.card3 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.card3 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgb(247, 247, 215);
+
+}
+.card3 h3{
+    margin-top: 30px;
+}
+
+.card4 img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.card4 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgb(247, 247, 215);
+
+}
+.card4 h3{
+    margin-top: 30px;
+}
+
+.topmilkshake{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+
+}
+.topshakes{
+    margin-top: 190px;
+}
+.first1{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+    
+
+}
+
+/* ekkaga pop-card  kii css add chesammuu*/
+#popupLayer{
+    position: fixed;
+    top:0;
+    left: 0;
+
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+
+
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+
+.popupCard{
+
+
+    width: 300px;
+    
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius:20px ;
+    box-shadow: 0px 0px 15px gray;
+    animation: pop .3s;
+
+}
+@keyframes pop {
+    from{
+        transform:scale(0);
+    }
+    to{
+        transform:scale(1);
+    }
+}
+.popupCard button{
+
+    margin-top:15px;
+
+    padding:10px 20px;
+
+    border:none;
+
+    background:blue;
+
+    color:white;
+
+    border-radius:5px;
+
+    cursor:pointer;
+}
+
+
+.first1:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first1 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first1 button{
+    padding: 8px 30px;
+    cursor: pointer;
+
+}
+.first1 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+.first2{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+}
+.first2:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first2 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first2 button{
+    padding: 8px 30px;
+     cursor: pointer;
+
+}
+.first2 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+.first3{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+}
+.first3:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first3 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first3 button{
+    padding: 8px 30px;
+     cursor: pointer;
+
+}
+.first3 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+.first4{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+}
+.first4:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first4 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first4 button{
+    padding: 8px 30px;
+     cursor: pointer;
+
+}
+.first4 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+
+
+.snacksitems{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+
+}
+.topsnacks{
+    margin-top: 190px;
+}
+.first1{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+}
+.first1:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first1 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first1 button{
+    padding: 8px 30px;
+     cursor: pointer;
+
+}
+.first1 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+
+
+
+
+.cakeitems{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 34px;
+
+}
+.topcakes{
+    margin-top: 190px;
+}
+.first1{
+    background-color:#ffe ;
+    padding: 60px 10px;
+    border-radius: 50px;
+}
+.first1:hover{
+    box-shadow: 0px 10px 30px #ffe;
+     transform: scale(1.08);
+}
+.first1 img{
+     width: 250px;
+    height: 220px;
+    object-fit:contain; 
+}
+.first1 button{
+    padding: 8px 30px;
+
+}
+.first1 button:hover{
+    background-color:rgb(248, 93, 36) ;
+    box-shadow: 0px 5px 5px black;
+}
+
+.mainBGimg{
+    height: 100vh;
+    background-image: url("thanku2.jpg");
+    background-repeat: no-repeat;
+    background-position: centre ;
+    background-size: cover;
+
+}
+ 
+
+
+footer{
+    height: 25vh;
+    background-image: url("footer\ BG\ img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.end h4{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
+    flex-direction: row;
+}
+footer{
+    background-image: url("footer\ BG\ img.jpg");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+}
+.footerdetails{
+    display: flex;
+    justify-content: space-evenly;
+   
+    color: white;
+}
+div.mail{
+    margin-top: 100px;
+}
+
+div.location{
+    margin-top: 100px;
+}
+
+div.contact{
+    margin-top: 100px;
+}
